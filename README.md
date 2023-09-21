@@ -1,9 +1,15 @@
 Команда для запуска:
-  mvn spring-boot:run
+  mvn -f (путь до скопированного файла через '/') spring-boot:run
 
 Пример json файла:
   {
-    "name":"чайник",
-    "price":"1000",
-    "discount":"20"
+      "name":"чайник",
+      "price":"1000",
+      "discount":"15"
+  }
+
+Пример ответа:
+  {
+      "name": "чайник",
+      "discounted_price": 850
   }
